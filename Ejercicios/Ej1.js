@@ -124,7 +124,7 @@ let watchList = [
     Response: "True",
   },
 ];
-const onliNolan = watchList
+const onliTitle = watchList
   .filter((item) => item.Director == "Christopher Nolan")
   .filter((item) => item.imdbRating > 8.0)
   .map((item) => item.Title);
